@@ -15,7 +15,7 @@ import java.util.*;
  *  - dropLeftMostCoin - O(1)
  *
  */
-public class Table {
+class Table {
 
     private final List<Integer> sortedCoinPositions;
     private final Map<Integer, Integer> positionToIndexMapping;

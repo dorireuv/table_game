@@ -16,6 +16,10 @@ public class ConsoleRenderer implements Renderer {
 
     private final PrintStream ps;
 
+    public ConsoleRenderer() {
+        this(System.out);
+    }
+
     public ConsoleRenderer(PrintStream ps) {
         this.ps = ps;
     }

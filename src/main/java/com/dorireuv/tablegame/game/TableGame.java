@@ -2,7 +2,7 @@ package com.dorireuv.tablegame.game;
 
 import java.util.Collection;
 
-public class TableGame {
+class TableGame {
 
     private final Table table;
     private Player currentPlayer;

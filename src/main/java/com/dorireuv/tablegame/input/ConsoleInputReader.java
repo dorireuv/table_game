@@ -7,8 +7,8 @@ public class ConsoleInputReader implements InputReader {
     private final PrintStream ps;
     private final BufferedReader br;
 
-    public ConsoleInputReader(PrintStream ps, InputStream is) {
-        this(ps, new BufferedReader(new InputStreamReader(is)));
+    public ConsoleInputReader() {
+        this(System.out, new BufferedReader(new InputStreamReader(System.in)));
     }
 
     public ConsoleInputReader(PrintStream ps, BufferedReader br) {
